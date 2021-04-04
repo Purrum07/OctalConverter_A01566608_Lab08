@@ -10,4 +10,6 @@ describe('givenTwoIntegersWhenSumThenSuccess', function () {
         // When
         var actualResult = javascritFunctions.sum(a, b);
         // Then
-        assert.strictEqual(expectedResult, actualResult);})})
+        assert.strictEqual(expectedResult, actualResult);
+    })
+})
